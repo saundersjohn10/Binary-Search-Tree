@@ -28,7 +28,7 @@ Removing and added are very similar processes in that the tree is parsed through
 Traversing the tree (O(n))-
 Available options to traverse the tree include Pre Order (root, left, right), In Order (left, root, right), and Post Order (left, right, root).  The tree is parsed through in the selected order, adding the nodes into a LinkedHashMap.  A thread is then created that linearly checks the nodes in the map and prints the tree with a marker at the given node then sleeps.  As each marker is placed on a node, a textfield is updated to show the nodes data it just visited, and in the end, shows the list of nodes in the order chosen.
 
-After a traversal:
+After an In-Order traversal:
 
 <img width="519" alt="screen shot 2018-06-29 at 10 44 14 pm" src="https://user-images.githubusercontent.com/36249204/42120727-2bb469bc-7bee-11e8-89f2-26f8c6cd794b.png">
 
